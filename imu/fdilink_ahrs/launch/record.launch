@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="rosbag" type="record" name="bag_record"
+        args="/camera/image_color/compressed /imu /livox/lidar  -o /home/dbstg/sensor_ws/src/dataset/multi_sensor"
+        output="screen" />
+    <!-- <node pkg="rosbag" type="record" name="bag_record" args="/camera/image_color/compressed
+    /imu /ublox_driver/ephem /ublox_driver/range_meas /ublox_driver/glo_ephem
+    /ublox_driver/iono_params /ublox_driver/receiver_lla /ublox_driver/receiver_pvt
+    /ublox_driver/time_pulse_info -o /home/dbstg/slam/GNSS/datasets/gvins_record" output="screen"/> -->
+
+</launch>

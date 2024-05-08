@@ -1,0 +1,15 @@
+<launch>
+    <!-- 启动相机 -->
+    <include
+        file="$(find pointgrey_camera_driver)/launch/camera.launch" />
+
+    <!-- 启动雷达 -->
+    <include file="$(find livox_ros_driver)/launch/livox_lidar.launch" />
+
+    <!-- 启动IMU -->
+    <include file="$(find fdilink_ahrs)/launch/ahrs_data.launch" />
+
+    <!-- 启动gnss -->
+    <!-- <include file="$(find ublox_driver)/launch/ublox_driver.launch" /> -->
+
+</launch>
