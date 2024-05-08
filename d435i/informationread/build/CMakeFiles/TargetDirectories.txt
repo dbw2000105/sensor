@@ -1,0 +1,3 @@
+/home/dbstg/slam/d435i/d435i_ws/src/informationread/build/CMakeFiles/informationread.dir
+/home/dbstg/slam/d435i/d435i_ws/src/informationread/build/CMakeFiles/edit_cache.dir
+/home/dbstg/slam/d435i/d435i_ws/src/informationread/build/CMakeFiles/rebuild_cache.dir
